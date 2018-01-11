@@ -20,7 +20,8 @@ release {
   tagCommitMessage = 'New release: '
   newVersionCommitMessage = 'Creating new SNAPSHOT version '
   git {
-    pushToRemote = 'upstream'
+    // TODO(jkinkead): REMOVE
+    pushToRemote = 'origin'
   }
 }
 
